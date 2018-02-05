@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="addbookheading">
+        <h4>Add Book</h4>
+    </div>
+    <div class="addBookCard">
+        <form name="myForm">
+            <div>
+                <input type="text" ng-model="bookName" placeholder="Book Name *"autofocus class="footerText" required>
+            </div>
+            <div>
+                <input type="text" ng-model="author" autofocus  placeholder="Author Name *"class="footerText" required>
+            </div>
+            <div>
+               
+                <input type="number" ng-model="prize" autofocus placeholder="Prize *" class="footerText" required>
+            </div>
+            <div>
+
+                <button class="Button" ng-disabled="myForm.$invalid" ng-click="addBOOK();">Add Book
+                </button>
+            </div>
+        </form>
+
+    </div>
+</div>

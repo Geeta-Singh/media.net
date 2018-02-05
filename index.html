@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app="bookstore">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Book Store</title>
+
+    <link rel="manifest" href="manifest.json">
+  
+    <link href="css/style1.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <!--third part css-->
+
+    <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/angular-material.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/font-awesome.min.css" rel="stylesheet">
+    <script src="assets/jquery/jquery-1.11.2.min.js"></script>
+    <script src="assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="assets/underscore/underscore.min.js"></script>
+    <script src="assets/underscore/angular-underscore-module.js"></script>
+    <script src="assets/moment/moment.min.js"></script>
+
+
+    <!-- core js -->
+    <script src="js/ChatApp.js"></script>
+    <script src="js/ChatConst.js"></script>
+    <script src="js/ChatConfig.js"></script>
+    <script src="js/ChatServices.js"></script>
+    <script src="js/ChatInterceptor.js"></script>
+    <script src="js/ChatController.js"></script>
+    <script src="js/ChatFilter.js"></script>
+    <script src="js/ChatFactories.js"></script>
+    <script src="js/ChatDirective.js"></script>
+    <script src="js/Factories/UtilsFactories.js"></script>
+    <script src="js/Directive/commonDirective.js"></script>
+    <script src="js/ChatDirective.js"></script>
+
+    <!-- component js -->
+    <script src="component/bookList/booklist.js"></script>
+    <script src="component/addBook/addbook.js"></script>
+    <script src="component/favouirate/fev.js"></script>
+</head>
+
+<body ng-controller="BooksCtrl">
+   
+    
+    <!-- below code is for after login -->
+    <div >
+        <div class="row">
+            <div class="col-md-2 col-sm-2 col-xs-2" style="border-right:1px solid lightgrey;height:100vh;padding-left:40px;background:blue;">
+                <div>
+                    <div style="padding-top: 10px;padding-bottom: 25px;margin-left:-10px;">
+                       <h3 style="color:white;text-align:center;">Book Store</h3>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="/UI_Assignment">
+                            <label style="color: white;padding-right: 20px;font-size: 12px;">Add Books</label>
+                            <!-- <img src="#"  width="20px" style="color: grey;padding-left: 20px;"> -->
+                            
+                        </a>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="/UI_Assignment/books">
+                            <label style="color: white;padding-right: 27px;font-size: 12px;">Book List</label>
+                            <!-- <img src="#"  width="2/0px" style="color: grey;padding-left: 20px;"> -->
+                            
+                        </a>
+                    </div>
+                    <div style="padding-bottom: 10px;">
+                        <a href="/UI_Assignment/fev">
+                            <label style="color: white;padding-right: 20px;font-size: 12px;">Fafourites</label>
+                            <!-- <img src="#"  width="20px" style="color: grey;padding-left: 25px;"> -->
+                             </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-10" style="padding:0px;">
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

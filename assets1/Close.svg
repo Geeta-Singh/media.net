@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="209" height="210"></rect>
+        <rect id="path-2" x="0" y="0" width="209" height="35"></rect>
+        <rect id="path-3" x="0" y="0" width="209" height="210"></rect>
+        <rect id="path-4" x="0" y="0" width="209" height="35"></rect>
+    </defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-473.000000, -178.000000)">
+        <g id="Book" transform="translate(288.000000, 167.000000)">
+            <g>
+                <g id="Rectangle-5">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#E3E3E3" stroke-width="1" x="0.5" y="0.5" width="208" height="209"></rect>
+                </g>
+                <g id="Rectangle-5">
+                    <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#E3E3E3" stroke-width="1" x="0.5" y="0.5" width="208" height="34"></rect>
+                </g>
+                <g id="Close" transform="translate(185.000000, 11.000000)" fill="#999999" fill-rule="nonzero">
+                    <polygon id="Shape" points="14 1.40954545 8.38154545 7 14 12.5904545 12.5955455 14 6.97709091 8.40954545 1.40509091 14 0.000636363636 12.5904545 5.57263636 7 0.000636363636 1.40954545 1.40509091 0 6.97709091 5.59045455 12.5955455 0"></polygon>
+                </g>
+                <g id="btn\promary" transform="translate(0.000000, 170.000000)">
+                    <rect id="Rectangle-4-Copy-3" fill="#6561CD" fill-rule="evenodd" x="0" y="0" width="209" height="40" rx="2"></rect>
+                    <text id="Add-Book" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="41.7137339" y="26">Add to Favourites</tspan>
+                    </text>
+                </g>
+                <text id="Author-Name" font-family="Roboto-LightItalic, Roboto" font-size="14" font-style="italic" font-weight="300" fill="#999999">
+                    <tspan x="65" y="23">Author Name</tspan>
+                </text>
+                <text id="Book-Name" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#666666">
+                    <tspan x="63" y="60">Book Name</tspan>
+                </text>
+                <g id="Group" transform="translate(88.000000, 131.000000)">
+                    <text id="$" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#9E9BFF">
+                        <tspan x="0" y="15">$</tspan>
+                    </text>
+                    <text id="29-copy" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" fill="#333333">
+                        <tspan x="11" y="19">29</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+        <g id="Book" transform="translate(288.000000, 167.000000)">
+            <g id="Rectangle-5">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#E3E3E3" stroke-width="1" x="0.5" y="0.5" width="208" height="209"></rect>
+            </g>
+            <g id="Rectangle-5">
+                <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#E3E3E3" stroke-width="1" x="0.5" y="0.5" width="208" height="34"></rect>
+            </g>
+            <g id="Close" transform="translate(185.000000, 11.000000)" fill="#999999" fill-rule="nonzero">
+                <polygon id="Shape" points="14 1.40954545 8.38154545 7 14 12.5904545 12.5955455 14 6.97709091 8.40954545 1.40509091 14 0.000636363636 12.5904545 5.57263636 7 0.000636363636 1.40954545 1.40509091 0 6.97709091 5.59045455 12.5955455 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

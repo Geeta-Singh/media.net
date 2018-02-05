@@ -1,0 +1,28 @@
+<div class="addbookheading">
+    <h4>Favouirate Books</h4>
+    <input type="text" ng-model="search" placeholder="Search" class="searchText fa fa-search">
+</div>
+
+<div ng-repeat="book in books | filter: search ">
+
+    <div class="col-xs-4">
+        <div class="cardd">
+            <div class=header>
+                {{book.author}}
+            </div>
+            <div class="body">
+                {{book.name}}
+                <div class="prize">
+                    $ {{book.prize}}
+                </div>
+            </div>
+            <div class="fevButton">
+                <button class="Button" style="width: 100%" ng-click="removefevBOOK(book.name,book.prize,book.author);">Remove
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</div>

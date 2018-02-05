@@ -1,0 +1,93 @@
+.addbookheading{
+    text-align: center;
+    color: blue;
+    margin-top: 6%;
+    font-size: 27px;
+}
+
+.addBookCard{
+    width: 425px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    padding: 25px;
+    background: #e7e7e7;
+}
+.container{
+    /* background: #e7e7e7; */
+    padding:0px !important;
+    margin: 0px !important;
+  
+}
+
+
+.footerText{
+    width:83% !important;
+    padding:5px !important;
+  
+    border-radius: 2px;
+    /* margin: 5px; */
+    margin-bottom: 15px;
+    border: 1px solid #e0dddd;
+}
+
+.Button{
+    width: 83%;
+    border-radius: 2px;
+    height: 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background: blue;
+    border: none;margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+.cardd{
+    width: 233px;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    /* padding: 5px; */
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.header{
+    background: #e7e7e7;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.searchText{
+    height: 25px;
+  
+    border-radius: 2px;
+   
+    padding: 5px;
+    width: 270px !important;
+    margin-bottom: 30px;
+    border: 1px solid #e7e7e7 !important;
+    font-size: 15px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
